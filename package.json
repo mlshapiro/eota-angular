@@ -1,0 +1,11 @@
+{
+  "name": "etnaoldtime",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.7.4"
+  },
+  "scripts": {
+    "start": "http-server -a 127.0.0.1 -p 9000"
+  }
+}
