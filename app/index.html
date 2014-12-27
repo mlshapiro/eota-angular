@@ -1,23 +1,25 @@
 <!doctype html>
 
-<html lang="en">
+<html class="no-js">
+
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Etna Old Time Association</title>
 
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/main.css">
-
-
 
 </head>
 
 <body ng-app="eota" ng-controller="MainCtrl">
 
-  <!--<div ng-include="views/main.html"></div>-->
-  <!--<div main-view> </div>-->
-  <main-view/>
+  <div ng-include='"templates/nav.html"'></div>
+
+  <div class="container foreground">
+    <div ng-include='"templates/main.html"'></div>
+  </div>
 
   <!--Dependencies-->
   <script type="text/javascript" src="bower_components/jquery/jquery.js"></script>

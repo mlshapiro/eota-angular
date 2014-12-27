@@ -4,17 +4,13 @@
 
   angular.module('eota.main', [])
 
-    .directive('mainView', function () {
-      return {
-        templateUrl: 'views/main.html',
-        scope: {}
-      }
-    })
-
+    .service('dm', function() {
+      })
 
     .controller('MainCtrl', function ($scope) {
       $scope.title = 'Main';
-    });
+      $scope.mainBtn= undefined;
+    })
 
 
 }());
