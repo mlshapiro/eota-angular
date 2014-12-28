@@ -8,8 +8,11 @@
       })
 
     .controller('MainCtrl', function ($scope) {
-      $scope.title = 'Main';
-      $scope.mainBtn= undefined;
+
+
+        // Navbar control
+        $scope.navbarCollapsed = true;
+
     })
 
 

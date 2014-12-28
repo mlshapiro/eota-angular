@@ -1,15 +1,21 @@
 html {
     background: url('../res/img/stream.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
 }
 
 body {
-    padding-top: 65px;
+    padding-top: 55px;
     background: transparent;
 }
+
+/* Custom Font Inclusions */
+@font-face { font-family: handrawn;
+            src: url('../res/fonts/AmaticSC-Regular.ttf'); }
+@font-face { font-family: arch;
+            src: url('../res/fonts/Archistico_Simple.ttf'); }
 
 .foreground {
     background-color: rgb(255, 255, 249);
@@ -19,6 +25,15 @@ body {
     border-radius: 4px;
 }
 
+.page {
+    padding-top: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    border-bottom: solid;
+    border-color: darkgrey;
+}
 
 .navbar-default {
     background-color: rgb(255, 255, 249);
@@ -26,16 +41,31 @@ body {
     border: transparent;
 }
 
+.navbar-brand {
+    font-family: handrawn;
+    font-size: 30px;
+}
+
 .header-title {
-    padding-top: 50px;
     text-align: center;
-    font-size: 36px;
+    font-size: 75px;
+    font-family: handrawn;
+}
+
+.header-images {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 450px;
+    max-width: 95%;
+    margin: 0 auto;
 }
 
 .header-image {
-    display: block;
-    width:90%;
     margin-left: auto;
     margin-right: auto;
+}
 
+
+.footer {
+    padding-bottom: 50px;
 }

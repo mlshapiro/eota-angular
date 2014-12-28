@@ -6,6 +6,7 @@
 
   // Include Modules
   angular.module('eota', [
+    'ui.bootstrap',
     'ngRoute',
 
     'eota.main',
