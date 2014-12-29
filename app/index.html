@@ -16,13 +16,16 @@
 
 <body ng-app="eota" ng-controller="MainCtrl">
 
-  <!--<div class="masthead">-->
-    <!--<img src="res/img/banjmand_nobg.png" class="img-responsive" />-->
-  <!--</div>-->
   <div ng-include='"templates/nav.html"'></div>
 
   <div class="container foreground">
-    <div ng-include='"templates/main.html"'></div>
+
+    <!--Pages-->
+    <div ng-view></div>
+
+    <div class="footer">
+      Copyright (c) Etna Old Time 2014
+    </div>
   </div>
 
   <!--Dependencies-->
@@ -39,9 +42,7 @@
 
   <!--Custom-->
   <script type="text/javascript" src="scripts/app.js"></script>
-  <script type="text/javascript" src="scripts/main.js"></script>
-  <script type="text/javascript" src="scripts/sounds.js"></script>
-  <script type="text/javascript" src="scripts/images.js"></script>
+  <script type="text/javascript" src="scripts/controllers.js"></script>
 
 </body>
 

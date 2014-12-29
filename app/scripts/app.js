@@ -9,28 +9,38 @@
     'ui.bootstrap',
     'ngRoute',
 
-    'eota.main',
-    'eota.sounds',
-    'eota.images'
+    'eota.controllers'
   ])
 
 // Configure Router
   .config(['$routeProvider',
-  function ($routeProvider) {
-
-    // Provide routes for individual 'pages'
-    $routeProvider.
-      when('/sounds', {
-        templateUrl: 'views/sounds.html',
-        controller: 'SoundCtrl'
-      }).
-      when('/images', {
-        templateUrl: 'views/images.html',
-        controller: 'ImageCtrl'
-      }).
-      otherwise({
-        redirectTo: '/'
-      });
+    function ($routeProvider) {
+      // Provide routes for individual 'pages'
+      $routeProvider
+        .when('/home', {
+          templateUrl: 'pages/home.html'
+        })
+        .when('/about', {
+          templateUrl: 'pages/about.html'
+        })
+        .when('/shows', {
+          templateUrl: 'pages/shows.html',
+          controller: 'ShowCtrl'
+        })
+        .when('/sounds', {
+          templateUrl: 'pages/sounds.html',
+          controller: 'SoundCtrl'
+        })
+        .when('/video', {
+          templateUrl: 'pages/video.html',
+          controller: 'VideoCtrl'
+        })
+        .when('/contact', {
+          templateUrl: 'pages/contact.html'
+        })
+        .otherwise({
+          redirectTo: '/home'
+        });
   }]);
 
 }());

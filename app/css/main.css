@@ -20,21 +20,13 @@ body {
 .foreground {
     background-color: rgb(255, 255, 249);
     opacity: 0.90;
-    width: 950px;
+    width: 1050px;
     max-width: 95%;
     border-radius: 4px;
 }
 
-.page {
-    padding-top: 20px;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 40px;
-    border-bottom: solid;
-    border-color: darkgrey;
-}
 
+/* Navbar */
 .navbar-default {
     background-color: rgb(255, 255, 249);
     opacity: 0.90;
@@ -46,26 +38,73 @@ body {
     font-size: 30px;
 }
 
-.header-title {
+/* Page defaults */
+.page {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-bottom: solid 1px;
+    border-color: rgba(119,119, 119, 0.4);
+}
+
+.page-title {
+    font-size: 75px;
+    font-family: handrawn;
+}
+
+
+
+/* Home page*/
+.home-title {
     text-align: center;
     font-size: 75px;
     font-family: handrawn;
 }
 
-.header-images {
+.home-images {
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 450px;
+    width: 400px;
     max-width: 95%;
     margin: 0 auto;
 }
 
-.header-image {
+.centered-image {
     margin-left: auto;
     margin-right: auto;
 }
 
+/* Contact */
+.bus-card {
+    width: 500px;
+    max-width: 95%;
+    opacity: 0.99;
+    margin: 0 auto;
+    border: solid 1px;
+    border-color: rgba(119,119, 119, 0.4);
+}
 
+.bus-card-image {
+    background: white;
+}
+
+.social {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.social .icons {
+    font-size: 40px;
+}
+
+/* Footer */
 .footer {
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #777;
+    text-align: center;
 }
