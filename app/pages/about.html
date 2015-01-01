@@ -1,13 +1,35 @@
-<div class="page">
+<div class="page" ng-controller="AboutCtrl">
   <div class="page-title">
     About
   </div>
 
-  <!--<div class="header-images">-->
-    <!--<img src="res/img/mando.png" class="img-responsive header-image" style="width:75% " />-->
-    <!--<img src="res/img/banjo.png" class="img-responsive header-image" style="width:100%" />-->
-  <!--</div>-->
+  <div class="row">
+    <div class="col-md-6">
+      <!--Text-->
+      <p> The Etna Old Time Association is a new-old-time duo rooted on the banks of Mink Brook in Etna, NH.
+      We forage from a collection of traditional tunes and newer tunes and stew them in a broth of bluegrass and folk.
+      We hope you enjoy the music! </p>
 
-  <!--<div style="padding-bottom: 200px"></div>-->
+      <p> Please get in touch to book us for your next farmer’s market, barn-raising, or wedding! </p>
+
+      <p> You can purchase our new EP “Organized Labor” over at bandcamp </p>
+
+    </div>
+    <div class="col-md-6">
+      <!--<div style="height: 250px">-->
+        <!--Images-->
+        <carousel interval="interval">
+          <slide ng-repeat="slide in slides" active="slide.active">
+            <img ng-src="{{slide.image}}" style="margin:auto; ">
+            <!--<div class="carousel-caption">-->
+              <!--<p>{{slide.text}}</p>-->
+            <!--</div>-->
+          </slide>
+        </carousel>
+      <!--</div>-->
+
+    </div>
+
+  </div>
 
 </div>

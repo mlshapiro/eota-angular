@@ -11,6 +11,11 @@ body {
     background: transparent;
 }
 
+p {
+    font-size: 15px;
+}
+
+
 /* Custom Font Inclusions */
 @font-face { font-family: handrawn;
             src: url('../res/fonts/AmaticSC-Regular.ttf'); }

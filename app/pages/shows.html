@@ -3,5 +3,23 @@
     Shows
   </div>
 
+  <div style="padding-top: 20px"></div>
+  <table class="table">
+    <tr>
+      <th></th>
+      <th>Date</th>
+      <th>Venue</th>
+      <th>Time</th>
+      <th>Location</th>
+    </tr>
+    <tr ng-repeat="show in shows">
+      <td>//</td>
+      <td>{{show.date}}</td>
+      <td>{{show.venue}}</td>
+      <td>{{show.time}}</td>
+      <td>{{show.location}}</td>
+    </tr>
+  </table>
+
 
 </div>
