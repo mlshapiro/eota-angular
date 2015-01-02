@@ -8,6 +8,7 @@
   angular.module('eota', [
     'ui.bootstrap',
     'ngRoute',
+    'ngAnimate',
 
     'eota.controllers'
   ])
@@ -17,30 +18,19 @@
     function ($routeProvider) {
       // Provide routes for individual 'pages'
       $routeProvider
-        .when('/home', {
-          templateUrl: 'pages/home.html'
-        })
-        .when('/about', {
-          templateUrl: 'pages/about.html'
-        })
-        .when('/shows', {
-          templateUrl: 'pages/shows.html',
-          controller: 'ShowCtrl'
-        })
-        .when('/sounds', {
-          templateUrl: 'pages/sounds.html',
-          controller: 'SoundCtrl'
-        })
-        .when('/video', {
-          templateUrl: 'pages/video.html',
-          controller: 'VideoCtrl'
-        })
-        .when('/contact', {
-          templateUrl: 'pages/contact.html'
+        .when('/', {
+          templateUrl: 'templates/main.html'
         })
         .otherwise({
-          redirectTo: '/home'
+          redirectTo: '/'
         });
   }]);
+//
+//  .run(function($rootScope, $location, $anchorScroll, $routeParams) {
+//    $rootScope.$on('$routeChangeSuccess', function(newRoute, oldRoute) {
+//      $location.hash($routeParams.scrollTo);
+//      $anchorScroll();
+//    });
+//  });
 
 }());

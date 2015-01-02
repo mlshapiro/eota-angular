@@ -4,13 +4,15 @@
 
   angular.module('eota.controllers', [])
 
-    .controller('MainCtrl', function ($scope) {
+    .controller('MainCtrl', function ($scope, $location) {
 
       // Navbar control
       $scope.navbarCollapsed = true;
 
-      // admin
-      $scope.admin = true;
+      $scope.pageActive = function() {
+        console.log($location.hash());
+        return $location.hash();
+      }
 
     })
 
