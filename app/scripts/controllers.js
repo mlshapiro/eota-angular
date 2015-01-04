@@ -10,7 +10,6 @@
       $scope.navbarCollapsed = true;
 
       $scope.pageActive = function() {
-        console.log($location.hash());
         return $location.hash();
       }
 
@@ -24,8 +23,11 @@
       var path = '../res/img/';
       var images = [
           'ava.jpg',
-          'ava2.jpg',
-          'eota.jpg'
+          //'ava2.jpg',
+          'eota.jpg',
+          'wedding.jpg',
+          'penny.jpg',
+          'penny-cotton.jpg'
       ];
 
       _.each(images, function(image) {
