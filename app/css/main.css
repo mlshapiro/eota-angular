@@ -34,7 +34,7 @@ p {
 /* Navbar */
 .navbar-default {
     background-color: rgb(255, 255, 249);
-    opacity: 0.90;
+    opacity: 0.98;
     border: transparent;
 }
 
@@ -50,6 +50,8 @@ p {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+
+    /*height: 610px;*/
 
     border-bottom: solid 1px;
     border-color: rgba(119,119, 119, 0.4);
@@ -100,11 +102,13 @@ p {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 40px;
+    color: rgb(119,119, 119);
 }
 
-.social .icons {
-    font-size: 40px;
-}
+/*.social .icons {*/
+    /*font-size: 70px;*/
+/*}*/
 
 /* Footer */
 .footer {
@@ -112,4 +116,18 @@ p {
     padding-bottom: 20px;
     color: #777;
     text-align: center;
+}
+
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.videos {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*border: solid 1px;*/
+    /*border-color: rgba(119,119, 119, 0.4);*/
+
 }
