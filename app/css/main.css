@@ -25,8 +25,8 @@ p {
 .foreground {
     background-color: rgb(255, 255, 249);
     opacity: 0.90;
-    width: 1050px;
-    max-width: 95%;
+    width: 1000px;
+    max-width: 92%;
     border-radius: 4px;
 }
 
