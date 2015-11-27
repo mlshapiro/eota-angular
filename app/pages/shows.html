@@ -15,7 +15,17 @@
     <tr ng-repeat="show in shows">
       <td>//</td>
       <td>{{show.date}}</td>
-      <td><a ng-href="{{show.venueSite}}">{{show.venue}}</a></td>
+      <td>
+        <div ng-if="show.link">
+          <a ng-href="{{show.link}}">{{show.venue}}</a>
+        </div>
+        <div ng-if="!show.link">
+          {{show.venue}}
+        </div>
+        <div ng-if="show.note" class="show-notes">
+          {{show.note}}
+        </div>
+        </td>
       <td>{{show.time}}</td>
       <td>{{show.location}}</td>
     </tr>

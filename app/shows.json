@@ -1,20 +1,25 @@
 {
-  {
-  "date": "01.10.15",
-  "venue":"The Lyme Inn",
-  "time": "6-8:30",
-  "location": "Lyme, NH"
-  },
-  {
-  "date": "2.10.15",
-  "venue":"The Lyme Inn",
-  "time": "6-8:30",
-  "location": "Lyme, NH"
-  },
-  {
-  "date": "01.10.15",
-  "venue":"The Lyme Inn",
-  "time": "6-8:30",
-  "location": "Lyme, NH"
-  }
+  "shows":
+    [
+      {
+        "date": "12.10.15",
+        "venue": "Private Event",
+        "location": "Hanover, NH"
+      },
+      {
+        "date": "12.18.15",
+        "venue": "Table 19",
+        "time": "6:30 - 9:30",
+        "location": "Weathersfield, VT"
+      },
+      {
+        "date": "01.08.15",
+        "venue": "Hanover Strings",
+        "time": "Doors at 7, Show at 7:30",
+        "location": "Hanover, NH",
+        "note": "'Lo the Old Pine Album Release Show"
+      }
+    ]
 }
+
+

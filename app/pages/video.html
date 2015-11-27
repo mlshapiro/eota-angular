@@ -1,10 +1,26 @@
-<div class="page" ng-controller="VideoCtrl" id="video">
+<div class="page" id="video">
   <div class="page-title">
     Video
   </div>
 
 
   <br><br>
+<!--   <div class="row" ng-repeat="video in videos track by $index" ng-if="$index % 2 == 0">
+    <div class="col-md-6 center-block videos"  ng-repeat="i in [$index, $index + 1]" ng-if="videos[i] != null">
+      <iframe src="{{video.src}}" width="100%" height="281" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+    </div>
+  </div>
+   -->
+
+  <div class="row">
+    <div class="col-md-6 center-block videos">
+      <iframe class="aligncenter" src="//player.vimeo.com/video/134578837" width="100%" height="281" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+    </div>
+    <div class="col-md-6 center-block videos">
+      <iframe class="aligncenter" src="//player.vimeo.com/video/132017981" width="100%" height="281" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+    </div>
+  </div>
+
   <div class="row">
     <div class="col-md-6 center-block videos">
       <iframe src="//player.vimeo.com/video/102188202" width="100%" height="281" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
@@ -13,12 +29,7 @@
       <iframe src="//player.vimeo.com/video/102197084" width="100%" height="281" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-6 center-block videos">
-      <iframe class="aligncenter" src="//player.vimeo.com/video/97450655" width="100%" height="281" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-    </div>
-    <div class="col-md-6 center-block videos">
-      <iframe class="aligncenter" src="//player.vimeo.com/video/97450516" width="100%" height="281" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-    </div>
-  </div>
+
+  
+
 </div>

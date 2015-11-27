@@ -6,24 +6,28 @@
   <div class="row">
     <div class="col-md-6">
       <!--Text-->
+      
       <p> The Etna Old Time Association is a new-old-time duo rooted on the banks of Mink Brook in Etna, NH.
       We forage from a collection of traditional tunes and newer tunes and stew them in a broth of bluegrass and folk.
       We hope you enjoy the music! </p>
 
       <p> Please <a href="mailto:etnaoldtime@gmail.com">get in touch</a> to book us for your next farmer’s market, barn-raising, or wedding! </p>
 
-      <p> You can purchase our new EP “Organized Labor” over at <a href="http://etnaoldtime.bandcamp.com"> bandcamp </a></p>
+      <p> You can purchase our EP “Organized Labor” over at <a href="http://etnaoldtime.bandcamp.com"> bandcamp </a></p>
+      
+      <p> If you'd like to stay up to date with where we'll be playing, add yourself to the <a href="http://goo.gl/forms/wRDLYQ3r4q"> mailing list </a> </p>
+      
 
     </div>
     <div class="col-md-6">
-      <!--<div style="height: 250px">-->
+      <div class="opaque">
         <!--Images-->
-        <carousel interval="interval">
-          <slide ng-repeat="slide in slides" active="slide.active">
-            <img ng-src="{{slide.image}}" style="margin:auto; height: 330px;">
-          </slide>
-        </carousel>
-      <!--</div>-->
+        <uib-carousel interval="interval">
+          <uib-slide ng-repeat="slide in slides" active="slide.active">
+            <img ng-src="{{slide.image}}" style="margin: auto; height: auto; max-height: 300px">
+          </uib-slide>
+        </uib-carousel>
+      </div>
 
     </div>
 

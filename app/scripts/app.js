@@ -14,17 +14,17 @@
   ])
 
 // Configure Router
-  .config(['$routeProvider',
-    function ($routeProvider) {
-      // Provide routes for individual 'pages'
-      $routeProvider
-        .when('/', {
-          templateUrl: 'templates/main.html'
-        })
-        .otherwise({
-          redirectTo: '/'
-        });
-  }])
+//  .config(['$routeProvider',
+//    function ($routeProvider) {
+//      // Provide routes for individual 'pages'
+//      $routeProvider
+//        .when('/', {
+//          templateUrl: 'templates/main.html'
+//        })
+//        .otherwise({
+//          redirectTo: '/'
+//        });
+//  }])
 
 
   .run(['$anchorScroll', function($anchorScroll) {
