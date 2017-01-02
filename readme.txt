@@ -25,12 +25,3 @@ From the 'eota-angular/app' directory
 s3cmd --configure
 
 Amazon AWS bucket configuration:
-
-
-
-Amazon AWS name servers:
-
-ns-1228.awsdns-25.org
-ns-345.awsdns-43.com
-ns-993.awsdns-60.net
-ns-1538.awsdns-00.co.uk

@@ -1,7 +1,10 @@
 <div class="page" ng-controller="ShowCtrl" id="shows">
   <div class="page-title">
-    Shows
+    Upcoming Shows
   </div>
+
+
+  <p> If you'd like to stay up to date with where we'll be playing, add yourself to the <a href="http://goo.gl/forms/wRDLYQ3r4q"> mailing list</a>. Please <a href="mailto:etnaoldtime@gmail.com">get in touch</a>! We'd love to hear from you. </p>
 
   <div style="padding-top: 20px"></div>
   <table class="table">
@@ -12,7 +15,7 @@
       <th>Time</th>
       <th>Location</th>
     </tr>
-    <tr ng-repeat="show in shows">
+    <tr ng-repeat="show in newShows">
       <td>//</td>
       <td>{{show.date}}</td>
       <td>
@@ -30,6 +33,39 @@
       <td>{{show.location}}</td>
     </tr>
   </table>
+
+  <div ng-if="isCollapsed" class="text-center">
+    <button class="btn btn-primary" ng-click="toggleCollapse()"> View Past Shows </button>
+    <!-- <button class="btn btn-danger" ng-if="!isCollapsed" ng-click="isCollapsed = !isCollapsed"> Close </button> -->
+  </div>
+
+  <div ng-if="!isCollapsed" class="text-center">
+    <button class="btn btn-danger" ng-if="!isCollapsed" ng-click="toggleCollapse()"> Close </button>
+  </div>
+
+  <div style="padding-top: 20px"></div>
+  <div uib-collapse="isCollapsed">
+    <table class="table">
+      <tr ng-repeat="show in oldShows track by $index" >
+        <td>//</td>
+        <td>{{show.date}}</td>
+        <td>
+          <div ng-if="show.link">
+            <a ng-href="{{show.link}}">{{show.venue}}</a>
+          </div>
+          <div ng-if="!show.link">
+            {{show.venue}}
+          </div>
+          <div ng-if="show.note" class="show-notes">
+            {{show.note}}
+          </div>
+          </td>
+        <td></td>
+        <td>{{show.location}}</td>
+      </tr>
+    </table>
+  </div>
+
 
 
 </div>

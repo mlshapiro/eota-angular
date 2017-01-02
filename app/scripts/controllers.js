@@ -34,12 +34,39 @@
     })
 
     .controller('ShowCtrl', function ($scope, $http) {
-
-      $scope.shows =[];
+      $scope.isCollapsed = true;
       $http.get('../shows.json')
-          .success(function(data) {
-            $scope.shows = data.shows;
-          });
+        .success(function(data) {
+          sortShows(data.shows);
+        });
+
+      $scope.toggleCollapse = function() {
+        $scope.isCollapsed = !$scope.isCollapsed;
+      };
+
+      function sortShows(shows) {
+        $scope.newShows = [];
+        $scope.oldShows = [];
+
+        _.each(shows, function(show) {
+          var date;
+          try {
+            date=show.date.split('.');
+          } catch(e) {console.log(e);}
+          
+          var d = new Date(date[0], parseInt(date[1])-1, parseInt(date[2])+1);
+          var today = new Date();
+
+          if (d <= today) {
+            $scope.oldShows.push(show);
+          } else {
+            $scope.newShows.push(show);
+          }
+        });
+      }
+
+
+
     });
 
     // .controller('VideoCtrl', function($scope, $http, $sce) {

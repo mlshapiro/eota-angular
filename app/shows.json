@@ -2,22 +2,271 @@
   "shows":
     [
       {
-        "date": "12.10.15",
+        "date": "2015.07.07",
+        "venue": "Warner Main Street Stage",
+        "time": "5:30 pm",
+        "location": "Warner, NH"
+      },
+      {
+        "date": "2015.07.16",
+        "venue": "Granite State of Mind - WNHN 94.7",
+        "location": "Concord, NH",
+        "note": "Rob Azevedo hosts a weekly mash-up of local New Hampshire artists",
+        "time": "9:00 pm",
+        "link": "http://www.wnhnfm.org/programs-2/granite-state-of-mind-2/"
+      },
+      {
+        "date": "2015.08.01",
+        "venue": "Big Fatty's BBQ",
+        "time": "6:00 pm",
+        "location": "White River Junction, VT"
+      },
+      {
+        "date": "2015.09.17",
+        "venue": "AVA Gallery",
+        "time": "7:00 pm",
+        "location": "Lebanon, NH",
+        "note": "The Mudroom"
+      },
+      {
+        "date": "2015.10.08",
+        "venue": "Windsor Station",
+        "location": "Windsor, VT",
+        "time": "7:00 pm"
+      },
+      {
+        "date": "2015.11.03",
+        "venue": "Moosilauke Ravine Lodge",
+        "location": "Warren, NH",
+        "time": "7:00 pm"
+      },
+      {
+        "date": "2015.11.04",
+        "venue": "Canoe Club",
+        "location": "Hanover, NH",
+        "time": "7:00 pm"
+      },
+      {
+        "date": "2016.01.08",
+        "venue": "Hanover Strings",
+        "location": "Hanover, NH",
+        "note": "'Lo The Old Pine CD Release show",
+        "time": "8:00 pm"
+      },
+      {
+        "date": "2016.02.18",
+        "venue": "Granite State of Mind - WNHN 94.7",
+        "location": "Concord, NH",
+        "note": "Rob Azevedo hosts a weekly mash-up of local New Hampshire artists",
+        "time": "9:00 pm",
+		    "link": "http://www.wnhnfm.org/programs-2/granite-state-of-mind-2/"
+      },
+      {
+        "date": "2016.02.20",
+        "venue": "Radio Bean",
+        "location": "Burlington, VT",
+        "time": "8:30pm",
+        "note": "Light Club Lamp Shop"
+      },
+      {
+        "date": "2016.03.17",
+        "venue": "Windsor Station",
+        "location": "Windsor, VT",
+        "time": "7:00 - 10:00 pm"
+      },
+      {
+        "date": "2016.03.31",
+        "venue": "AVA Gallery",
+        "time": "7:00 pm",
+        "location": "Lebanon, NH",
+        "note": "The Mudroom"
+      },
+      {
+        "date": "2016.05.07",
+        "venue": "Big Fatty's BBQ",
+        "time": "6 - 8:30 pm",
+        "location": "White River Jct, VT"
+      },
+      {
+        "date": "2016.05.11",
+        "venue": "New England College",
+        "time": "7:30 pm",
+        "location": "Concord, NH",
+        "note": "Artists in the Round with Rob Azevedo"
+      },
+      {
+        "date": "2016.05.19",
+        "venue": "Dartmouth College",
+        "time": "TBA",
+        "location": "Hanover, NH",
+        "note": "Opening for Tall Heights"
+      },
+      {
+        "date": "2016.05.21",
+        "venue": "Norwich Farmer's Market",
+        "location": "Norwich, VT",
+        "time": "9 am - 12 pm"
+      },
+      {
+        "date": "2016.05.21",
+        "venue": "Hood Museum of Art",
+        "location": "Hanover, NH",
+        "time": "3:30 pm - 4:30 pm",
+        "note": "The Writing's on the Wall: Party at the Museum"
+      },
+      {
+        "date": "2016.05.29",
+        "venue": "Skinny Pancake",
+        "location": "Hanover, NH",
+        "time": "12 pm - 3 pm"
+      },
+      {
+        "date": "2016.06.04",
+        "venue": "Private Event - Wedding",
+        "location": "Enfield, NH"
+      },
+      {
+        "date": "2016.06.10",
+        "venue": "Hartland Farmer's Market",
+        "location": "Hartland, VT",
+        "time": "4 pm - 7 pm"
+      },
+      {
+        "date": "2016.07.01",
+        "venue": "Moosilauke Ravine Lodge",
+        "location": "Warren, NH",
+        "time": "6:30 pm",
+        "note": "Dinner at 6:30, show to follow. Call (603) 764-5858 for reservations."
+      },
+      {
+        "date": "2016.07.06",
+        "venue": "Hartford Summer Concert Series",
+        "location": "Lyman Point Park, White River Jct, VT",
+        "time": "6:30 pm"
+      },
+      {
+     	"date": "2016.07.09",
+        "venue": "Private Event - Wedding",
+        "location": "Jackson, NH"
+      },
+      {
+        "date": "2016.07.14",
+        "venue": "Windsor Station",
+        "location": "Windsor, VT",
+        "time": "7:00 - 10:00 pm"
+      },
+      {
+     	"date": "2016.07.16",
+        "venue": "MainStreet Warner Stage",
+        "location": "Warner, NH",
+        "time": "4 pm - 7 pm"
+      },
+      {
+     	"date": "2016.08.13",
+        "venue": "Private Event",
+        "location": "Randolph, VT"
+      },
+      {
+     	"date": "2016.08.14",
+        "venue": "The Skinny Pancake",
+        "location": "Hanover, NH",
+        "time": "12 pm - 3 pm"
+      },
+      {
+        "date": "2016.08.17",
+        "venue": "Hanover Farmer's Market",
+        "location": "Hanover, NH",
+        "time": "3 pm - 6 pm"
+      },
+      {
+     	"date": "2016.08.18",
+        "venue": "Private Event",
+        "location": "Warren, NH"
+      },
+      {
+        "date": "2016.08.21",
+        "venue": "Canaan Farmer's Market",
+        "location": "Canaan, NH",
+        "time": "10 am - 1 pm"
+      },
+      {
+        "date": "2016.08.26",
         "venue": "Private Event",
         "location": "Hanover, NH"
       },
       {
-        "date": "12.18.15",
-        "venue": "Table 19",
-        "time": "6:30 - 9:30",
-        "location": "Weathersfield, VT"
+        "date": "2016.09.09",
+        "venue": "Rumney Rocks Campground",
+        "location": "Rumney, NH",
+        "time": "6 pm - 8 pm",
+        "note": "Rumney Rendezvous"
+	  },
+	  {
+        "date": "2016.10.14",
+        "venue": "King Arthur Flour Cafe",
+        "location": "Norwich, VT",
+        "time": "3:30 pm - 6:30 pm"
       },
       {
-        "date": "01.08.15",
-        "venue": "Hanover Strings",
-        "time": "Doors at 7, Show at 7:30",
+        "date": "2016.11.06",
+        "venue": "Skinny Pancake Hanover",
         "location": "Hanover, NH",
-        "note": "'Lo the Old Pine Album Release Show"
+        "time": "noon - 3 pm",
+        "note": "Bluegrass Brunch Monthly Residency"
+      },
+      {
+        "date": "2016.12.04",
+        "venue": "Skinny Pancake Hanover",
+        "location": "Hanover, NH",
+        "time": "noon - 3 pm",
+        "note": "Bluegrass Brunch Monthly Residency"
+      },
+      {
+        "date": "2016.12.09",
+        "venue": "Big Fatty's BBQ",
+        "time": "6 - 8:30 pm",
+        "location": "White River Jct, VT"
+      },
+      {
+        "date": "2017.01.06",
+        "venue": "King Arthur Flour Cafe",
+        "location": "Norwich, VT",
+        "time": "3:30 pm - 6:00 pm",
+        "note": "Billy Solo"
+      },
+      {
+        "date": "2017.01.15",
+        "venue": "SILO Distillery",
+        "time": "noon - 2:00 pm",
+        "location": "Windsor, VT",
+        "note": "Music & Marys"
+      },
+      {
+        "date": "2017.01.20",
+        "venue": "Sunapee Coffee House",
+        "time": "7:00 pm - 9:00 pm",
+        "location": "9 Lower Main Street, Sunapee, NH",
+        "note": "http://www.sunapeecoffeehouse.org/"
+      },
+      {
+        "date": "2017.01.22",
+        "venue": "Skinny Pancake Hanover",
+        "location": "Hanover, NH",
+        "time": "noon - 3 pm",
+        "note": "Bluegrass Brunch Monthly Residency"
+      },
+      {
+        "date": "2017.02.05",
+        "venue": "Skinny Pancake Hanover",
+        "location": "Hanover, NH",
+        "time": "noon - 3 pm",
+        "note": "Bluegrass Brunch Monthly Residency"
+      },
+      {
+        "date": "2017.03.13",
+        "venue": "LOMA",
+        "time": "7:00 pm - 10:00 pm",
+        "location": "Lincoln Library, Lincoln, MA"
       }
     ]
 }
