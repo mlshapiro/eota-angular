@@ -252,21 +252,28 @@
         "date": "2017.01.22",
         "venue": "Skinny Pancake Hanover",
         "location": "Hanover, NH",
-        "time": "noon - 3 pm",
+        "time": "noon - 3:00 pm",
         "note": "Bluegrass Brunch Monthly Residency"
       },
       {
         "date": "2017.02.05",
         "venue": "Skinny Pancake Hanover",
         "location": "Hanover, NH",
-        "time": "noon - 3 pm",
+        "time": "noon - 3:00 pm",
+        "note": "Bluegrass Brunch Monthly Residency"
+      },
+      {
+        "date": "2017.03.05",
+        "venue": "Skinny Pancake Hanover",
+        "location": "Hanover, NH",
+        "time": "noon - 3:00 pm",
         "note": "Bluegrass Brunch Monthly Residency"
       },
       {
         "date": "2017.03.10",
         "venue": "Riverwalk Cafe",
         "location": "Nashua, NH",
-        "time": "7 pm",
+        "time": "7:00 pm",
         "note": "Opening for FreshGrass Duo Competition winners Quiles & Cloud",
 	"link": "http://www.riverwalknashua.com/"
       },
