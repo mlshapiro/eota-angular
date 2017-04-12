@@ -1,6 +1,6 @@
 # EOTA Website
  
-Angular based website for Etna Old Time Association
+Angular based website for EOTA
 
 ## Inputs
 
