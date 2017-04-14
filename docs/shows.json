@@ -293,10 +293,25 @@
 	"link": "https://skinnypancake.com/location/burlington-restaurant/"
       },
       {
+        "date": "2017.05.09",
+        "venue": "Private Event",
+        "location": "Norwich, VT"
+      },
+      {
+        "date": "2017.05.19",
+        "venue": "Private Event - Wedding w/ Blackberry Bushes",
+        "location": "Charlotte, VT"
+      },
+      {
         "date": "2017.06.28",
         "venue": "Hartford Summer Concert Series",
         "location": "Lyman Point Park, White River Jct, VT",
         "time": "6:30 pm - 8:00pm"
+      },
+      {
+        "date": "2017.07.20",
+        "venue": "Private Event",
+        "location": "Norwich, VT"
       }
     ]
 }
