@@ -69,20 +69,5 @@
 
     });
 
-    // .controller('VideoCtrl', function($scope, $http, $sce) {
-    //   $scope.videos =[];
-    //   var trusted = [];
-
-    //   $http.get('../videos.json')
-    //       .success(function(data) {
-    //         _.each(data.videos, function(video) {
-    //           $scope.videos.push($sce.trustAsResourceUrl(video.src));
-    //           // $sce.trustAsResourceUrl(video.src)
-    //         });
-    //         console.log($scope.videos)
-    //         $scope.videos = data.videos;
-    //       });
-    // })
-
 
 }());
