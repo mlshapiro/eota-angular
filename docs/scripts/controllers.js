@@ -63,6 +63,8 @@
             $scope.newShows.push(show);
           }
         });
+
+        $scope.oldShows = $scope.oldShows.reverse()
       }
 
 
