@@ -338,6 +338,13 @@
         "date": "2017.10.20",
         "venue": "Private Event",
         "location": "Norwich, VT"
+      },
+      {
+        "date": "2018.05.04",
+        "venue": "Skinny Pancake Hanover",
+        "location": "Hanover, NH",
+        "time": "TBA",
+        "note": "The return to the Upper Valley"
       }
     ]
 }
