@@ -343,8 +343,9 @@
         "date": "2018.05.04",
         "venue": "Skinny Pancake Hanover",
         "location": "Hanover, NH",
-        "time": "TBA",
-        "note": "The return to the Upper Valley"
+        "time": "8-10pm",
+        "note": "The return to the Upper Valley",
+	"link": "https://www.facebook.com/events/1926540440990296/" 
       }
     ]
 }
