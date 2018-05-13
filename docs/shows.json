@@ -346,6 +346,14 @@
         "time": "8-10pm",
         "note": "The return to the Upper Valley",
 	"link": "https://www.facebook.com/events/1926540440990296/" 
+      }, 
+      {
+        "date": "2018.06.09",
+        "venue": "The Den at Harry's Hardware",
+        "location": "Cabot, VT",
+        "time": "7-9pm",
+        "note": "A listening room in the back of a hardware store.",
+	"link": "http://harryshardwarevt.com/the-den.html" 
       }
     ]
 }
