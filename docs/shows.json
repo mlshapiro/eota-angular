@@ -354,7 +354,18 @@
         "time": "7-9pm",
         "note": "A listening room in the back of a hardware store.",
 	"link": "http://harryshardwarevt.com/the-den.html" 
-      }
+      },
+      {
+        "date": "2018.09.21",
+        "venue": "The Briggs Opera House",
+        "location": "White River Junction, VT",
+        "note": "With Jes Raymond & The Blackberry Bushes"
+      },
+      {
+        "date": "2018.09.22",
+        "venue": "Private Event - Wedding",
+        "location": "Stowe, VT"
+      },
     ]
 }
 
