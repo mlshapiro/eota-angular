@@ -374,6 +374,14 @@
         "date": "2018.09.22",
         "venue": "Private Event - Wedding",
         "location": "Stowe, VT"
+      },  
+      {
+        "date": "2019.02.01",
+        "venue": "Sunapee Coffee House",
+        "time": "7:00 pm - 9:00 pm",
+        "location": "9 Lower Main Street, Sunapee, NH",
+        "note": "http://www.sunapeecoffeehouse.org/",
+	"link": "https://www.facebook.com/events/2469585986390182/"
       }
     ]
 }
