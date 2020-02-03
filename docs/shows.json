@@ -405,11 +405,24 @@
 	"link": "http://anoncoffee.org/"      
       },
       {
-        "date": "2019.03.28",
+        "date": "2020.03.28",
         "venue": "Stone Corral",
         "location": "Richmond, VT",
         "time": "7 pm - 10 pm",
 	"link": "https://www.facebook.com/events/534374070496425/"      
+      },
+      {
+        "date": "2020.05.23",
+        "venue": "Norwich Farmer's Market",
+        "location": "Norwich, VT",
+        "time": "9 am - 12 pm",
+	"link": "http://www.norwichfarmersmarket.org/"
+      },
+      {
+        "date": "2020.06.23",
+        "venue": "Isham Farmer's Market",
+        "location": "Williston, VT",
+        "time": "5 pm - 8 pm"
       }
     ]
 }
