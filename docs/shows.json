@@ -389,6 +389,27 @@
         "location": "Richmond, VT",
         "time": "7 pm - 10 pm",
 	"link": "https://www.facebook.com/events/322382208701616/"      
+      },
+      {
+        "date": "2020.02.08",
+        "venue": "Skinny Pancake Burlington",
+        "location": "Burlington, VT",
+        "time": "7:30 pm",
+	"link": "https://www.facebook.com/events/595854521211810/"      
+      },
+      {
+        "date": "2020.03.13",
+        "venue": "The Anonymous Coffeehouse",
+        "location": "Lebanon, NH",
+        "time": "7:30 pm",
+	"link": "http://anoncoffee.org/"      
+      },
+      {
+        "date": "2019.03.28",
+        "venue": "Stone Corral",
+        "location": "Richmond, VT",
+        "time": "7 pm - 10 pm",
+	"link": "https://www.facebook.com/events/534374070496425/"      
       }
     ]
 }
