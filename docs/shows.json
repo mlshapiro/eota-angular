@@ -395,6 +395,25 @@
         "venue": "Isham Farmer's Market",
         "location": "Williston, VT",
         "time": "4 pm - 7 pm"
+      },
+      {
+        "date": "2022.02.11",
+        "venue": "The Anonymous Coffeehouse",
+        "location": "Lebanon, NH",
+        "time": "7 pm",
+	"link": "http://anoncoffee.org/" 
+      },
+      {
+        "date": "2021.07.12",
+        "venue": "Isham Farmer's Market",
+        "location": "Williston, VT",
+        "time": "5 pm - 8 pm",
+	"link": "http://ishamfamilyfarm.com/music/"
+      },
+      {
+        "date": "2021.08.12",
+        "venue": "Knoll Farm",
+        "location": "Waitsfield, VT"
       }
     ]
 }
