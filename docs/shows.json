@@ -436,14 +436,14 @@
       {
         "date": "2023.06.22",
         "venue": "Blueberry Hill Inn",
-        "location": "Goshen, VT"
+        "location": "Goshen, VT",
 	"time": "Pizza 5-7:30 | Music 6 - 8",
 	"link": "https://www.blueberryhillinn.com/pizza"
       },	    
       {
         "date": "2023.09.19",
         "venue": "Isham Farmer's Market",
-        "location": "Williston, VT"
+        "location": "Williston, VT",
 	"time": "5 pm - 8 pm",
 	"link": "http://ishamfamilyfarm.com/music/"
       }
